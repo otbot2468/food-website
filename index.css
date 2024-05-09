@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 0.75fr 2fr 1.5fr 0.5fr;
+    grid-template-areas: "header header" "image image" "about about" "footer footer";
+    height: 100vh;
+    margin: 0em;
+
+}
+
+header {
+    grid-area: header;
+    background: #ff00bf;
+}
+
+section.image {
+    grid-area: image;
+    background: #d12424;
+}
+
+section.about {
+    grid-area: about;
+    background: #150072;
+}
+
+footer {
+    grid-area: footer;
+    background: #33ff00
+}

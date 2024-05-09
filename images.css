@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.75fr 1fr 1fr 1fr 1fr 0.75fr;
+    grid-template-areas: "header header header header header header header header" "pic9 pic9 pic9 text9 pic5 pic5 pic5 text5" "pic8 pic8 pic8 pic6 pic6 text6 pic3 text3" "text8 text8 pic7 pic7 text7 text4 pic4 pic4" "text2 pic2 pic2 pic2 pic1 pic1 pic1 text1" "footer footer footer footer footer footer footer footer";
+    height: 100vh;
+    margin: 2em;
+
+}
+
+header {
+    grid-area: header;
+    background: #dfb5b5;
+}
+
+
+section.pic1 {
+    grid-area: pic1;
+    background: #0d574a;
+    border-radius: 25px 25px 25px 25px;
+    /*box-shadow:0 0 0 10px #ee6352, 0 0 0 20px #d45379, 0 0 0 30px #a45558f, 0 0 0 450px #6d588e, 0 0 0 50px #405378;*/
+    background-image: url(../images/bread.jpg);
+    border: 3px solid rgb(255, 0, 119);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 0px 0px 0px 0px;
+    border-style:ridge;
+    border-width: 5px;
+    border-color: black;
+}
+
+section.pic2 {
+    grid-area: pic2;
+    background: #23bea2;
+    border-radius: 0px 0px 0px 0px;
+    /*box-shadow:0 0 0 10px #ee6352, 0 0 0 20px #d45379, 0 0 0 30px #a45558f, 0 0 0 450px #6d588e, 0 0 0 50px #405378;*/
+    background-image: url(../images/mixed.png);
+    border: 3px solid rgb(255, 0, 119);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 0px 0px 0px 0px;
+    border-style:ridge;
+    border-width: 5px;
+    border-color: black;
+}
+
+section.pic3 {
+    grid-area: pic3;
+    background: #333333;
+    border-radius: 0px 0px 0px 0px;
+    /*box-shadow:0 0 0 10px #ee6352, 0 0 0 20px #d45379, 0 0 0 30px #a45558f, 0 0 0 450px #6d588e, 0 0 0 50px #405378;*/
+    background-image: url(../images/bread.jpg);
+    border: 3px solid rgb(255, 0, 119);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 0px 0px 0px 0px;
+    border-style:ridge;
+    border-width: 5px;
+    border-color: black;
+}
+
+section.pic4 {
+    grid-area: pic4;
+    background: #cf9494;
+    border-radius: 0px 0px 0px 0px;
+    /*box-shadow:0 0 0 10px #ee6352, 0 0 0 20px #d45379, 0 0 0 30px #a45558f, 0 0 0 450px #6d588e, 0 0 0 50px #405378;*/
+    background-image: url(../images/bread.jpg);
+    border: 3px solid rgb(255, 0, 119);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 0px 0px 0px 0px;
+    border-style:ridge;
+    border-width: 5px;
+    border-color: black;
+}
+
+section.pic5 {
+    grid-area: pic5;
+    background: #13a813;
+    border-radius: 0px 0px 0px 0px;
+    /*box-shadow:0 0 0 10px #ee6352, 0 0 0 20px #d45379, 0 0 0 30px #a45558f, 0 0 0 450px #6d588e, 0 0 0 50px #405378;*/
+    background-image: url(../images/bread.jpg);
+    border: 3px solid rgb(255, 0, 119);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 0px 0px 0px 0px;
+    border-style:ridge;
+    border-width: 5px;
+    border-color: black;
+}
+
+section.pic6 {
+    grid-area: pic6;
+    background: #7b24cc;
+    border-radius: 0px 0px 0px 0px;
+    /*box-shadow:0 0 0 10px #ee6352, 0 0 0 20px #d45379, 0 0 0 30px #a45558f, 0 0 0 450px #6d588e, 0 0 0 50px #405378;*/
+    background-image: url(../images/bread.jpg);
+    border: 3px solid rgb(255, 0, 119);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 0px 0px 0px 0px;
+    border-style:ridge;
+    border-width: 5px;
+    border-color: black;
+}
+
+section.pic7 {
+    grid-area: pic7;
+    background: #06a0cf;
+    border-radius: 0px 0px 0px 0px;
+    /*box-shadow:0 0 0 10px #ee6352, 0 0 0 20px #d45379, 0 0 0 30px #a45558f, 0 0 0 450px #6d588e, 0 0 0 50px #405378;*/
+    background-image: url(../images/bread.jpg);
+    border: 3px solid rgb(255, 0, 119);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 0px 0px 0px 0px;
+    border-style:ridge;
+    border-width: 5px;
+    border-color: black;
+}
+
+section.pic8 {
+    grid-area: pic8;
+    background: #b40f99;
+    border-radius: 0px 0px 0px 0px;
+    /*box-shadow:0 0 0 10px #ee6352, 0 0 0 20px #d45379, 0 0 0 30px #a45558f, 0 0 0 450px #6d588e, 0 0 0 50px #405378;*/
+    background-image: url(../images/bread.jpg);
+    border: 3px solid rgb(255, 0, 119);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 0px 0px 0px 0px;
+    border-style:ridge;
+    border-width: 5px;
+    border-color: black;
+}
+
+section.pic9 {
+    grid-area: pic9;
+    background: #0b17c2;
+    border-radius: 0px 0px 0px 0px;
+    /*box-shadow:0 0 0 10px #ee6352, 0 0 0 20px #d45379, 0 0 0 30px #a45558f, 0 0 0 450px #6d588e, 0 0 0 50px #405378;*/
+    background-image: url(../images/bread.jpg);
+    border: 3px solid rgb(255, 0, 119);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 0px 0px 0px 0px;
+    border-style:ridge;
+    border-width: 5px;
+    border-color: black;
+}
+
+section.text1 {
+    grid-area: text1;
+    background: #26502a;
+}
+
+
+section.text2 {
+    grid-area: text2;
+    background: #887a37;
+}
+
+
+section.text3 {
+    grid-area: text3;
+    background: #706464;
+}
+
+
+section.text4 {
+    grid-area: text4;
+    background: #967777;
+}
+
+
+section.text5 {
+    grid-area: text5;
+    background: #103810;
+}
+
+
+section.text6 {
+    grid-area: text6;
+    background: #441d68;
+}
+
+
+section.text7 {
+    grid-area: text7;
+    background: #124d5f;
+}
+
+
+section.text8 {
+    grid-area: text8;
+    background: #922a81;
+}
+
+
+section.text9 {
+    grid-area: text9;
+    background: #3139a8;
+}
+
+footer {
+    grid-area: footer;
+    background: #8b8686;
+}
